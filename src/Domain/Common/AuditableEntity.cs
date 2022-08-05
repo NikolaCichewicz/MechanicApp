@@ -1,6 +1,8 @@
-﻿namespace MechanicApp.Domain.Common;
+﻿using MechanicApp.Domain.Interfaces;
 
-public abstract class BaseAuditableEntity : BaseEntity
+namespace MechanicApp.Domain.Common;
+
+public abstract class AuditableEntity : IAuditableEntity
 {
     public DateTime Created { get; set; }
 

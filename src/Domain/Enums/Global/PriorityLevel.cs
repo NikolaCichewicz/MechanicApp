@@ -1,4 +1,4 @@
-﻿namespace MechanicApp.Domain.Enums;
+﻿namespace MechanicApp.Domain.Enums.Global;
 
 public enum PriorityLevel
 {
